@@ -1,0 +1,144 @@
+#604
+# a = float(input())
+# b = a*a * 3.14159
+# print("A=%.4f"%b)
+#1
+# a,b = map(int,input().split())
+# print(a + b)
+#606
+# a = float(input())
+# b = float(input())
+# a *= (3.5/11)
+# b *= (7.5/11)
+# print("MEDIA = %.5f"%(a + b))
+#609
+# a = int(input())
+# b = int(input())
+# c = float(input())
+# print("NUMBER = %d"%a)
+# print("SALARY = U$ %.2f"%(b * c))
+#608
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# print("DIFERENCA = %d"%(a*b-c*d))
+# 616. 两点间的距离
+# x1,y1=map(float,input().split())
+# x2,y2=map(float,input().split())
+# a = (x1 - x2) ** 2
+# b = (y1 - y2) ** 2
+# from math import sqrt
+# c = sqrt(a + b)
+# print("%.4f"%c)
+# 653. 钞票
+# a = int(input())
+# a1 = a%100
+# a2 = a1%50
+# a3 = a2%20
+# a4 = a3%10
+# a5 = a4%5
+# a6 = a5%2
+# print(a)
+# print("%d nota(s) de R$ 100,00"%(a//100))
+# print("%d nota(s) de R$ 50,00"%(a1//50))
+# print("%d nota(s) de R$ 20,00"%(a2//20))
+# print("%d nota(s) de R$ 10,00"%(a3//10))
+# print("%d nota(s) de R$ 5,00"%(a4//5))
+# print("%d nota(s) de R$ 2,00"%(a5//2))
+# print("%d nota(s) de R$ 1,00"%(a6))
+# 615. 油耗
+# a = int(input())
+# b = float(input())
+# print("%.3f km/l"%(a/b))
+# 654. 时间转换
+# a = int(input())
+# b = a // 3600
+# c = (a%3600)//60
+# d = (a%3600)%60
+# print("%d:%d:%d"%(b,c,d))
+# 605. 简单乘积
+# a = int(input())
+# b = int(input())
+# print("PROD = %d"%(a * b))
+# 611. 简单计算
+# x,y,z = map(float,input().split())
+# a,b,c = map(float,input().split())
+# print("VALOR A PAGAR: R$ %.2f"%(y*z+b*c))
+# 612. 球的体积
+# a = int(input())
+# pi = 3.14159
+# a **= 3
+# v = (4/3)*pi*a
+# print("VOLUME = %.3f"%v)
+# 613. 面积
+# a,b,c=map(float,input().split())
+# print("TRIANGULO: %.3f"%(0.5*a*c))
+# print("CIRCULO: %.3f"%(3.14159*c*c))
+# print("TRAPEZIO: %.3f"%(0.5*(a+b)*c))
+# print("QUADRADO: %.3f"%(b**2))
+# print("RETANGULO: %.3f"%(b*a))
+# 607. 平均数2
+# a = float(input())
+# b = float(input())
+# c = float(input())
+# a*=0.2
+# b*=0.3
+# c*=0.5
+# print("MEDIA = %.1f"%(a+b+c))
+# 610. 工资和奖金
+# a = input()
+# b = float(input())
+# c = float(input())
+# d = b + 0.15 * c
+# print("TOTAL = R$ %.2f"%d)
+# 614. 最大值
+# x,y,z=map(int,input().split())
+# c = (x+y+abs(x-y))/2
+# d = (c + z+abs(c-z))/2
+# print("%d eh o maior"%d)
+# 617. 距离
+# a = int(input())
+# print("%d minutos"%(a/30*60))
+# 618. 燃料消耗
+# t = int(input())
+# s = int(input())
+# s = (s * t) / 12
+# print("%.3f"%s)
+# 656. 钞票和硬币
+# a = float(input())
+# a*=100
+# a1 = a%10000
+# a2 = a1%5000
+# a3 = a2%2000
+# a4 = a3%1000
+# a5 = a4%500
+# a6 = a5%200
+# a7 = a6%100
+# a8 = a7%50
+# a9 = a8%25
+# a10 = a9%10
+# a11 = a10%5
+# print("NOTAS:")
+# print("%d nota(s) de R$ 100.00"%(a//10000))
+# print("%d nota(s) de R$ 50.00"%(a1//5000))
+# print("%d nota(s) de R$ 20.00"%(a2//2000))
+# print("%d nota(s) de R$ 10.00"%(a3//1000))
+# print("%d nota(s) de R$ 5.00"%(a4//500))
+# print("%d nota(s) de R$ 2.00"%(a5//200))
+# print("MOEDAS:")
+# print("%d moeda(s) de R$ 1.00"%(a6//100))
+# print("%d moeda(s) de R$ 0.50"%(a7//50))
+# print("%d moeda(s) de R$ 0.25"%(a8//25))
+# print("%d moeda(s) de R$ 0.10"%(a9//10))
+# print("%d moeda(s) de R$ 0.05"%(a10//5))
+# print("%d moeda(s) de R$ 0.01"%(a11//1))
+# 655. 天数转换
+# a = int(input())
+# print("%d ano(s)"%(a//365))
+# a%=365
+# print("%d mes(es)"%(a//30))
+# a%=30
+# print("%d dia(s)"%a)
+
+

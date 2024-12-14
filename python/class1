@@ -1,0 +1,43 @@
+# a=10
+# b=20
+# print(a+b)
+# print(a*b)
+# print(a/b)
+# print(a//b)#两个除号代表整除,向下取整
+# print(a%b)
+# print(a ** b) #2都三次方
+# c = a + b
+# print(c)
+# a += b#累加运算
+# #同理-=,*=,/=,//=,**=都可以简写
+# x = 2 + 3
+# y = (x + 1,0) * 5
+# print(x,y)
+# s = '123.0'
+# ss = float(s)#将字符串中的浮点数提取出来
+# b = int(s)#取整
+# s2 = "the valve is " + str(b)#将整数转化成字符串
+# a = int(input())
+# b = int(input())
+# print(a + b)#要将输入转化成字符串
+# s = input()
+# print(s.split())#split将元素拆分
+# a,b=map(int, input().split())#先用input读进来，再用split函数分成隔了空格的字符串，最后用int作用
+# print(a+b)
+# print(1,end = 'xx')
+# print(2,end = '')
+# print(3,end = ' ')
+# #使用print()函数可以输出多个变量，默认用空格隔开，且行末会默认添加回车。如果想自定义行末字符，可以添加end参数。
+# x = 12.34567
+# print('x = '+str(round(x,2)))
+# y = 12
+# print("x = %.1f" % x)#保留一位小数
+# print("x = %.3f"%(x * y))#保留三位小数,先计算乘积，然后再计算这两个数的值
+# print("x = %f,y = %d"%(x,y))#输出整数，%f默认保留六位
+# from math import sqrt  # 引入开根号函数
+# x = 2
+# y = sqrt(x)
+# print(y)
+
+
+
